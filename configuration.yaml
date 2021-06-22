@@ -1,0 +1,22 @@
+cover:
+  - platform: mqtt
+    device_class: garage
+    name: "GarageDoor_1"
+    state_topic: "GarageDoors/doorStatus/door1"
+    command_topic: "GarageDoors/doorCommand"
+    payload_open: "1"
+    payload_close: "1"
+    payload_stop: "1"
+    state_open: "open"
+    state_closed: "closed"
+
+  - platform: mqtt
+    device_class: garage
+    name: "GarageDoor_2"
+    state_topic: "GarageDoors/doorStatus/door2"
+    command_topic: "GarageDoors/doorCommand"
+    payload_open: "2"
+    payload_close: "2"
+    payload_stop: "2"
+    state_open: "open"
+    state_closed: "closed"
